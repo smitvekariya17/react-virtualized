@@ -1,0 +1,141 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build:types": {
+      "name": "build:types",
+      "command": "yarn build:types",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:commonjs": {
+      "name": "build:commonjs",
+      "command": "yarn build:commonjs",
+      "runAtStart": false
+    },
+    "build:css": {
+      "name": "build:css",
+      "command": "yarn build:css",
+      "runAtStart": false
+    },
+    "build:demo": {
+      "name": "build:demo",
+      "command": "yarn build:demo",
+      "runAtStart": false
+    },
+    "build:es": {
+      "name": "build:es",
+      "command": "yarn build:es",
+      "runAtStart": false
+    },
+    "build:umd": {
+      "name": "build:umd",
+      "command": "yarn build:umd",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "clean:commonjs": {
+      "name": "clean:commonjs",
+      "command": "yarn clean:commonjs",
+      "runAtStart": false
+    },
+    "clean:demo": {
+      "name": "clean:demo",
+      "command": "yarn clean:demo",
+      "runAtStart": false
+    },
+    "clean:es": {
+      "name": "clean:es",
+      "command": "yarn clean:es",
+      "runAtStart": false
+    },
+    "clean:umd": {
+      "name": "clean:umd",
+      "command": "yarn clean:umd",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier:diff": {
+      "name": "prettier:diff",
+      "command": "yarn prettier:diff",
+      "runAtStart": false
+    },
+    "postpublish": {
+      "name": "postpublish",
+      "command": "yarn postpublish",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3001
+      }
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:jest": {
+      "name": "test:jest",
+      "command": "yarn test:jest",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "yarn test:coverage",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "watch:jest": {
+      "name": "watch:jest",
+      "command": "yarn watch:jest",
+      "runAtStart": false
+    }
+  }
+}
